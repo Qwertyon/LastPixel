@@ -63,8 +63,15 @@
         ХОЧУ НА БЕСПЛАТНОЕ ЗАНЯТИЕ
       </button>
     </p>
-
-    <img class="header__picture" src="./img/pic.png" alt="students with teacher" />
+    <picture class="header__picture">
+      <source srcset="img/pic@2x.png" media="(min-width: 1280px) and (min-resolution: 192dpi) " />
+      <source srcset="img/pic.png" media="(min-width: 1280px)" />
+      <source srcset="img/pic-tablet@2x.png" media="(min-width: 768px) and (min-resolution: 192dpi)" />
+      <source srcset="img/pic-tablet.png" media="(min-width: 768px)" />
+      <source srcset="img/pic-mobile@2x.png" media="(min-width: 320px) and (min-resolution: 192dpi)" />
+      <source srcset="img/pic-mobile.png" media="(min-width:320px)" />
+      <img src="img/pic-mobile.png" alt="students with teacher">
+    </picture>
 
     <ul class="header__feauters-list">
       <li class="header__feauters-list-item header__feauters-list-item_student-icon">
