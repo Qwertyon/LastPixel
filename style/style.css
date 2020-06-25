@@ -348,7 +348,7 @@ li {
 }
 
 .btn-menu {
-  background-image: url("../img/header/btn.png");
+  background-image: url("../img/btn.png");
   width: 24px;
   height: 12px;
   cursor: pointer;
@@ -546,15 +546,15 @@ li {
 }
 
 .header__feauters-list-item_student-icon::before {
-  background-image: url("../img/icons/student-female.png");
+  background-image: url("../img/student-female.png");
 }
 
 .header__feauters-list-item_mobile-learning-icon::before {
-  background-image: url("../img/icons/mobile-learning.png");
+  background-image: url("../img/mobile-learning.png");
 }
 
 .header__feauters-list-item_money-safe-icon::before {
-  background-image: url("../img/icons/money-safe.png");
+  background-image: url("../img/money-safe.png");
 }
 
 @media (min-width: 768px) {
